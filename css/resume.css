@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #4f4fd5;
+    background: linear-gradient(90deg, rgba(79, 79, 213, 1) 0%, rgb(13, 25, 27) 100%);
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #ffd900a1;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.info {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info:hover {
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.links{
+    background-color: rgba(194, 181, 156, 0.2);
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+
+figure {
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+div {
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 28px;
+    color: #ffd900a1; 
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #dddddd;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(103, 114, 179) 0%, rgb(66, 107, 183) 100%);
+    border-radius: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #850c67; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
