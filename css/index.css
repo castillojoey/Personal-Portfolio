@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+body {
+    background-color: rgba(79, 79, 213,0.2);
+    background: linear-gradient(90deg, rgba(79, 79, 213, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border-radius: 10px;
+    background-color: rgba(194, 181, 156,0.2);
+    padding: 10px;
+}
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+
+figure {
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+div {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(151, 151, 184) 0%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #850c67; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.floating-card {
+    width: 90%; 
+    max-width: 800px; 
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(67, 67, 101) 0%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.floating-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50px; 
+    margin-bottom: 5px;
+}
+
+
+.caption {
+    font-weight: bold;
+    color: #333;
+}
